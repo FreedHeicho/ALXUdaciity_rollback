@@ -38,5 +38,6 @@ jobs:
 
 workflows:
   my-workflow:
-    - create_infrastructure
-    - smoke_test    
+    jobs:
+      - create_infrastructure
+      - smoke_test    
