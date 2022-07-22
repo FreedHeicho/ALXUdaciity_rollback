@@ -1,3 +1,4 @@
+version: 2.1
 commands:
    # Exercise - Rollback
    destroy_environment:
